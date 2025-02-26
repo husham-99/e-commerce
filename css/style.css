@@ -15,6 +15,7 @@
     --dark-red: #d01418;
     --border-color: #6666662a;
     --name-item: #0066c0;
+    
 
 }
 
@@ -545,7 +546,7 @@ header nav .links .login_signup a{
 
 .banner .container .banner-img{
     display: flex;
-    width: 31%;
+    width: 46%;
     
     position: relative;
     
@@ -1233,6 +1234,7 @@ header nav .links ul .btn-close{
     .banner .container .banner-img{
 
         margin: 0 auto;
+        
     }
 
 
@@ -1277,27 +1279,29 @@ header nav .links ul .btn-close{
         padding-top: 50px;
         position: fixed;
         top: 0;
-        left: -420px;
+        left: -900px;
         bottom: 0;
         background-color: #fff;
         flex-direction: column;
         gap: 20px;
-        width: 400px;
+        width: 100%;
         border-right: 1px solid var(--border-color);
         text-align: center;
         transition: all 0.3s ease-in-out;
+        margin: 0 auto;
     
     }
 
     header nav .links ul.active{
 
+        
         left: 0
     }
 
 
     header nav .links ul .logo-menu{
     
-        width: 140px;
+        width: 100px;
         margin: 0 auto;
         display: block;
     
@@ -1307,12 +1311,19 @@ header nav .links ul .btn-close{
     
     position: absolute;
     top: 20px;
-    right: 40px;
-    font-size: 40px;
+    right: 20px;
+    font-size: 30px;
     color: var(--main-color);
     display: block;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
     
+    }
+
+    header nav .links ul .btn-close:hover{
+
+        color: var(--dark-red);
+        transform: scale(1.2);
     }
 
 
@@ -1324,7 +1335,7 @@ header nav .links ul .btn-close{
     
     }
 
-    header .links ul .bg-overlay{
+    /*header .links ul .bg-overlay{
 
         display: block;
         position: fixed;
@@ -1339,7 +1350,7 @@ header nav .links ul .btn-close{
     header .links ul.active .bg-overlay{
 
         right: 0
-    }
+    }*/
 
     .banner{
 
@@ -1399,6 +1410,59 @@ header nav .links ul .btn-close{
         width: 100%
     }
 
+
+    /* ******* footer ************************/
+
+
+    .back-to-top p{
+
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    footer .big-raw img{
+
+        width: 120px
+    }
+
+    footer .container .big-raw .hotline i{
+
+        font-size: 40px;
+    }
+
+    footer .container .big-raw .hotline h5{
+
+        font-size: 15px;
+    }
+
+    footer .container .big-raw .hotline h6{
+
+        font-size: 15px;
+    }
+
+    footer .container .big-raw p{
+
+        font-size: 13px;
+    }
+
+    footer .container .raw h4{
+
+        font-size: 15px;
+    }
+
+    footer .container .raw .links a{
+
+        font-size: 13px;
+    }
+
+    .bottom-footer .container p{
+
+        font-size: 13px;
+    }
+
+
+    .slide .container .mySwiper .btn_swip.swiper-button-prev
+
     
 
     .bottom-footer .container{
@@ -1410,6 +1474,41 @@ header nav .links ul .btn-close{
     .bottom-footer .payment-img img{
 
         width: 50px
+    }
+
+
+    .slide .container .mySwiper .btn_swip.swiper-button-prev{
+
+
+        padding: 0 15px;
+    }
+
+    .slide .container .mySwiper .btn_swip.swiper-button-next{
+
+
+        padding: 0 15px;
+    }
+
+    .slide .container .mySwiper .btn_swip.swiper-button-prev::after{
+
+
+        font-size: 18px;
+    }
+
+    .slide .container .mySwiper .btn_swip.swiper-button-next::after{
+
+
+        font-size: 18px;
+    }
+
+    :root{
+
+        --swiper-navigation-size: 31px !important;
+    }
+
+    .news-letter .text h4{
+
+        font-size: 20px;
     }
 
     
@@ -1491,10 +1590,7 @@ header nav .links ul .btn-close{
     }
 
 
-    .news-letter .text h4{
-
-        font-size: 23px;
-    }
+    
 
     .news-letter .text p{
 
@@ -1503,7 +1599,7 @@ header nav .links ul .btn-close{
 
     .news-letter .text h6{
 
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .news-letter .newsletter-form button{
