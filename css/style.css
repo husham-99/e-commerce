@@ -1393,28 +1393,11 @@ header nav .links ul .btn-close{
         gap: 15px
     }
 
-    
-}
+
+     /* ******* footer ************************/
 
 
-@media (max-width: 700px){
-
-    .slider .container .slide-swp{
-
-        width: 100%;
-        order: 3
-    }
-
-    .slider .container .side-bar{
-
-        width: 100%
-    }
-
-
-    /* ******* footer ************************/
-
-
-    .back-to-top p{
+     .back-to-top p{
 
         padding: 10px;
         font-size: 15px;
@@ -1478,6 +1461,26 @@ header nav .links ul .btn-close{
 
         width: 50px
     }
+
+    
+}
+
+
+@media (max-width: 700px){
+
+    .slider .container .slide-swp{
+
+        width: 100%;
+        order: 3
+    }
+
+    .slider .container .side-bar{
+
+        width: 100%
+    }
+
+
+   
 
 
     .slide .container .mySwiper .btn_swip.swiper-button-prev{
