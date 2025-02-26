@@ -1422,32 +1422,32 @@ header nav .links ul .btn-close{
 
     footer .big-raw img{
 
-        width: 120px
+        width: 115px
     }
 
     footer .container .big-raw .hotline i{
 
-        font-size: 40px;
+        font-size: 39px;
     }
 
     footer .container .big-raw .hotline h5{
 
-        font-size: 15px;
+        font-size: 13px;
     }
 
     footer .container .big-raw .hotline h6{
 
-        font-size: 15px;
+        font-size: 13px;
     }
 
     footer .container .big-raw p{
 
-        font-size: 13px;
+        font-size: 12px;
     }
 
     footer .container .raw h4{
 
-        font-size: 15px;
+        font-size: 13px;
     }
 
     footer .container .raw .links a{
@@ -1455,21 +1455,24 @@ header nav .links ul .btn-close{
         font-size: 13px;
     }
 
-    .bottom-footer .container p{
+    footer .container .raw h4{
 
-        font-size: 13px;
+        margin-bottom: 5px;
     }
 
-
-    .slide .container .mySwiper .btn_swip.swiper-button-prev
-
-    
 
     .bottom-footer .container{
 
         flex-direction: column;
         gap: 20px;
+        margin: auto;
     }
+
+    .bottom-footer .container p{
+
+        font-size: 12px;
+    }
+    
 
     .bottom-footer .payment-img img{
 
@@ -1620,10 +1623,7 @@ header nav .links ul .btn-close{
     }
 
 
-    footer .container .raw h4{
-
-        margin-bottom: 10px;
-    }
+    
 
 
 
