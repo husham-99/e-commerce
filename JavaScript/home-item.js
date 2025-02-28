@@ -38,7 +38,7 @@ fetch ("JavaScript/items.json")
                             <img class="img-hover" src="${product.img_hover}" alt="">
                         </div>
 
-                        <h3 class="product-name"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ad velit tenetur a optio quam.</a></h3>
+                        <h3 class="product-name"><a href="#">Lorem ipsum dolor sit amet consec.</a></h3>
 
                         <div class="stars">
                             <i class="fa-solid fa-star"></i>
@@ -91,7 +91,7 @@ fetch ("JavaScript/items.json")
                             <img class="img-hover" src="${product.img_hover}" alt="">
                         </div>
 
-                        <h3 class="product-name"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ad velit tenetur a optio quam.</a></h3>
+                        <h3 class="product-name"><a href="#">Lorem ipsum dolor sit amet consc.</a></h3>
 
                         <div class="stars">
                             <i class="fa-solid fa-star"></i>
@@ -144,7 +144,7 @@ fetch ("JavaScript/items.json")
                         <img class="img-hover" src="${product.img_hover}" alt="">
                     </div>
 
-                    <h3 class="product-name"><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ad velit tenetur a optio quam.</a></h3>
+                    <h3 class="product-name"><a href="#">Lorem ipsum dolor sit amet consec</a></h3>
 
                     <div class="stars">
                         <i class="fa-solid fa-star"></i>
