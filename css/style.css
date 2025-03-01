@@ -1187,7 +1187,7 @@ header nav .links ul .btn-close{
         width: 100%
     }*/
 
-    header .top-nav .logo{
+    /*header .top-nav .logo{
     
     font-size: 30px;
     font-weight: bold;
@@ -1199,7 +1199,7 @@ header nav .links ul .btn-close{
     color: #053a68;
     
     
-    }
+    }*/
 
 
     header nav .links ul P{
@@ -1379,8 +1379,11 @@ header nav .links ul .btn-close{
         text-align: center;
         transition: all 0.3s ease-in-out;
         margin: 0 auto;
+        
     
     }
+
+    
 
     header nav .links ul.active{
 
@@ -2073,6 +2076,147 @@ header nav .links ul .btn-close{
 
 
 
+.pagination{
+
+    padding: 8px 10px;
+    background-color: #fff;
+    border: 1px solid var(--border-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.pagination .btn-page{
+
+    font-size: 22px;
+    padding: 0 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.pagination .btn-page:hover{
+
+    color: var(--main-color);
+}
+
+.pagination .num-page{
+
+    border: 1px solid transparent;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+.pagination .num-page.active,
+.pagination .num-page:hover{
+
+    border: 1px solid var(--main-color);
+    cursor: pointer;
+}
+
+.all-products .btn-filter{
+
+    display: none;
+}
+
+
+
+/************ responsive *******************************/
+
+
+@media (max-width: 1500px){
+    
+    .all-products .container .products-div .product{
+
+        width: 31%
+    }
+}
+
+
+@media (max-width: 1000px){
+
+    .all-products .container .filter{
+
+        position: absolute;
+        left: -46%;
+        top: 60px;
+        width: 40%;
+        z-index: 100;
+        transition: all 0.5s ease-in-out;
+
+        
+    }
+
+    .all-products .container .filter.active{
+
+        left: 0
+
+    }
+
+
+
+    .all-products .container .products-div{
+
+        width: 100%;
+        gap: 0;
+        justify-content: space-between;
+        
+    }
+
+    .all-products .container{
+
+        position: relative;
+        padding-top: 60px;
+    }
+
+    .all-products .btn-filter{
+        display: block;
+        position: absolute;
+        top: 0;
+        padding: 10px 30px;
+        background-color: var(--main-color);
+        font-size: 18px;
+        border-radius: 5px;
+    }
+}
+
+
+@media (max-width: 650px){
+
+
+    .all-products .container .products-div .product{
+
+        width: 48%;
+    }
+
+    .top-page{
+
+        padding: 20px 0;
+    }
+
+    .top-page h1{
+
+        font-size: 22px;
+    }
+
+    .top-page p{
+
+        font-size: 14px;
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 450px){
+
+    .all-products .container .filter{
+
+        width: 100%;
+        left: -150%;
+    }
+}
 
 
 
