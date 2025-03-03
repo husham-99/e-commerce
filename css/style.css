@@ -1189,7 +1189,7 @@ header nav .links ul .btn-close{
 }
 @media (max-width: 1000px){
 
-
+    
     header .top-nav .search{
 
         width: 420px;
@@ -1259,8 +1259,9 @@ header nav .links ul .btn-close{
     .slider .container{
 
         flex-wrap: wrap;
-        gap: 15px;
+        
         margin: auto;
+        
     }
 
     
@@ -1693,6 +1694,11 @@ header nav .links ul .btn-close{
 
         font-size: 13px;
         padding: 8px 12px;
+    }
+
+    .slider .container .side-bar{
+        position: relative;
+        top: -30px
     }
 
     .product .product-name a{
