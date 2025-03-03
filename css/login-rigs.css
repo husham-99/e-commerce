@@ -19,7 +19,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%
+    width: 100%;
+    
+    
+}
+
+@media (max-width: 600px) {
+    
+    .sec-form{
+
+        margin-bottom: 30px !important;
+    }
 }
 
 .sec-form .form-container{
