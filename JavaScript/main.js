@@ -38,6 +38,20 @@ function close_menu(){
 
 
 
+
+// change item image
+
+let bigImage = document.getElementById("bigImage");
+
+function changeItemImage(img){
+
+    bigImage.src = img
+}
+
+
+
+
+
 // add items to the cart 
 
 let all_product_json;
