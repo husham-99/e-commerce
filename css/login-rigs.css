@@ -1,0 +1,164 @@
+
+
+:root{
+
+    --main-color: #fcb700;
+    --dark-color: #222222;
+    --parg-color: #666666;
+    --dark-red: #d01418;
+    --border-color: #6666662a;
+    --name-item: #0066c0;
+    
+
+}
+
+
+.sec-form{
+
+    margin: 240px 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.sec-form .form-container{
+
+    width: 350px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+.sec-form .form-container .title{
+
+    color: var(--dark-color);
+    text-align: center;
+    margin: 10px 0 30px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.sec-form .form-container .form{
+
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 15px;
+}
+
+
+.sec-form .form input{
+
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 15px;
+    border: 1px soild #c0c0c0;
+    outline: 0;
+}
+
+.sec-form .form input:focus{
+
+    border-color: var(--main-color);
+}
+
+
+.sec-form .form .page-link {
+
+    margin: 0;
+    text-align: right;
+    
+}
+
+
+.sec-form .page-link .page-link-label{
+
+    font-size: 13px;
+    color: var(--parg-color);
+
+
+}
+
+.sec-form .page-link .page-link-label:hover{
+
+    color: #000;
+}
+
+.sec-form .form button{
+
+
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background-color: var(--main-color);
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 5px 15px;
+
+}
+
+.sec-form .sign-up-lable{
+
+    margin: 0;
+    font-size: 12px;
+    color: var(--parg-color)
+}
+
+
+.sec-form .sign-up-lable .sign-up-link{
+
+    color: var(--main-color);
+    font-size: 14px;
+    margin-left: 2px;
+    text-decoration: underline;
+}
+
+
+.sec-form .buttons-container{
+
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.sec-form .buttons-container i{
+
+    font-size: 22px;
+    margin-right: 7px;
+    
+    
+}
+
+.sec-form .buttons-container .fa-google{
+
+    font-size: 19px;
+    color: #0066c0;
+}
+
+.sec-form .buttons-container .fa-apple{
+
+    color: red;
+}
+
+
+
+
+.sec-form .apple-login-buton,
+.sec-form .google-login-button{
+
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+}
