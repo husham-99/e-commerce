@@ -294,6 +294,7 @@ header nav .links .login_signup a{
     cursor: pointer;
     color: var(--dark-color);
     transition: all 0.3s ease-in-out;
+    
 }
 
 .cart .top-cart .close-cart i:hover{
@@ -311,6 +312,7 @@ header nav .links .login_signup a{
     border-block: 1px solid var(--border-color);
     margin-block: 20px;
     height: 100%;
+    overflow-y: auto;
 }
 
 
@@ -404,13 +406,20 @@ header nav .links .login_signup a{
 
     border: none;
     outline: none;
+    background-color: transparent;
+    
 }
 
 .cart .item-cart .delete-item i{
 
+    
     font-size: 20px;
     cursor: pointer;
+    margin-right: 15px;
     transition: all 0.3s ease-in-out;
+    
+    
+    
 }
 
 .cart .item-cart .delete-item i:hover{
@@ -1194,9 +1203,9 @@ header nav .links ul .btn-close{
 
     header .top-nav .logo{
     
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-    padding: 5px 15px;
+    padding: 0px 15px;
     background-color: var(--main-color);
     border-radius: 30px;
     letter-spacing: 4px;
@@ -1206,13 +1215,33 @@ header nav .links ul .btn-close{
     
     }
 
+    header .top-nav .cart-header i{
+
+
+        font-size: 18px;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+
+    header .top-nav{
+
+        padding: 10px 0
+    }
+
+    header .links{
+    
+        padding: 10px 0;
+    
+    }
+
 
     header nav .links ul P{
 
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
         text-align: center;
-        padding: 6px 14px;
+        padding: 0px 15px;
         background-color: var(--main-color);
         width: fit-content;
         margin: 0 auto;
@@ -1366,11 +1395,7 @@ header nav .links ul .btn-close{
         margin: 10px auto 0;
     }
 
-    header .links{
     
-        padding: 20px 0;
-    
-    }
 
     header nav .links ul{
         padding-top: 50px;
@@ -1638,13 +1663,18 @@ header nav .links ul .btn-close{
 
     header .top-nav .search input{
 
-        padding: 13px 130px 13px 20px;
+        padding: 9px 130px 9px 20px;
+    }
+
+    header .top-nav .search input::placeholder{
+
+        font-size: 12px;
     }
 
     header .top-nav .search button{
 
-        width: 120px;
-        font-size: 14px;
+        width: 108px;
+        font-size: 13px;
     }
 
     header .links ul{
@@ -1657,6 +1687,12 @@ header nav .links ul .btn-close{
 
         width: 100%;
         right: -100%
+    }
+
+    header nav .links .login_signup a{
+
+        font-size: 13px;
+        padding: 8px 12px;
     }
 
     .product .product-name a{
