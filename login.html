@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/login-rigs.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+</head>
+<body>
+
+    <header>
+
+        <div class="container top-nav">
+            <a class="logo" href="">MINNA</a>
+            <form class="search">
+
+                <input type="search" placeholder="Search For Product">
+
+                <button type="submit">Search</button>
+
+                
+            </form>
+
+            <div class="cart-header">
+
+                <div onclick="open_cart()" class="icon-cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="count-item">0</span>
+                </div>
+
+                <div class="total-price">
+
+                    <p>my cart :</p>
+                    <p class="price-cart-head">$0</p>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <nav>
+
+            <div class="links container">
+
+                <i onclick="open_menu()" class="fa-solid fa-bars btn-open"></i>
+                <ul id="menu">
+                    <span onclick="close_menu()" class="bg-overlay"></span>
+                    <i onclick="close_menu()" class="fa-regular fa-circle-xmark btn-close"></i>
+                    <p>MINNA</p>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="all-product.html">all products</a></li>
+                    <li><a href="item.html">ITEMS</a></li>
+                    <li><a href="">contact</a></li>
+
+                </ul>
+
+                <div class="login_signup">
+
+                    
+                    <a href="signup.html">Signup <i class="fa-solid fa-user-plus"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="cart">
+
+        <div class="top-cart">
+
+            <h3>my cart <span class="count-item-cart">( 0 items in cart )</span></h3>
+            <span onclick="close_cart()" class="close-cart"><i class="fa-regular fa-circle-xmark"></i></span>
+        </div>
+
+
+        <div class="items-in-cart">
+
+            
+
+            
+        </div>
+
+        <div class="bottom-cart">
+
+            <div class="total">
+                <p>cart subtotal</p>
+                <p class="price-cart-total">$0</p>
+            </div>
+
+            <div class="button-cart">
+                <a class="btn-cart" href="">proceed to checkout</a>
+                <button onclick="close_cart()" class="btn-cart trans-bg">shop more</button>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="signin sec-form">
+
+        <div class="form-container">
+
+            <p class="title">welcom back</p>
+
+            <form class="form">
+
+                <input type="email" placeholder="E-mail">
+
+                <input type="password" placeholder="Password">
+
+                <p class="page-link"><a href="#" class="page-link-label">forget password?</a></p>
+
+                <button class="form-btn">login</button>
+
+                
+            </form>
+
+            <p class="sign-up-lable">
+
+                dont have an account? <a class="sign-up-link" href="signup.html">sign up</a>
+            </p>
+
+
+            <div class="buttons-container">
+
+                <div class="apple-login-buton">
+
+                    <i class="fa-brands fa-apple"></i>
+                    <span>Login With Apple</span>
+                </div>
+
+                <div class="google-login-button">
+
+                    <i class="fa-brands fa-google"></i>
+                    <span>Login With Google</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+
+
+       
+    
+
+    <footer>
+
+        <div class="container">
+
+            <div class="big-raw">
+
+                <P class="footer-brand">MINNA</P>
+                <div class="hotline">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="text">
+
+                        <h5>Hotline Free 24/24</h5>
+                        <h6>(+100) 123 456 7890</h6>
+                    </div>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, cupiditate.</p>
+            </div>
+
+            <div class="raw">
+
+                <h4>FAQs & Help</h4> 
+
+                <div class="links">
+                    <a href="#">F.A.Qs</a>
+                    <a href="#">Ordering Tracking</a>
+                    <a href="#">Contacts</a>
+                    <a href="#">Events</a>
+                    <a href="#">Help Center</a>
+                </div>
+            </div>
+
+            <div class="raw">
+
+                <h4>Shipping & Deliv.</h4> 
+
+                <div class="links">
+                    <a href="#">Delivery Information</a>
+                    <a href="#">Discount</a>
+                    <a href="#">Payment & Shipping</a>
+                    <a href="#">Estimated Delivery Time</a>
+                    <a href="#">Shipping Guide</a>
+                </div>
+            </div>
+
+            <div class="raw">
+
+                <h4>Information</h4> 
+
+                <div class="links">
+                    <a href="#">Popular</a>
+                    <a href="#">Our Services</a>
+                    <a href="#">Your Account</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Condition</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-footer">
+            <div class="container">
+
+                <p>Copyright &copy; <span>Topico.com</span> all rights reserved</p>
+
+                <div class="payment-img">
+                    <img src="images/payment-1.png" alt="">
+                    <img src="images/payment-2.png" alt="">
+                    <img style="border: 1px solid gray" src="images/payment-3.png" alt="">
+                    <img src="images/payment-4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+   
+    
+    <script src="JavaScript/main.js"></script>
+    
+</body>
+</html>
