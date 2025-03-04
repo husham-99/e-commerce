@@ -1670,6 +1670,12 @@ header nav .links ul .btn-close{
 
         font-size: 12px;
     }
+
+    .all-products .btn-filter{
+
+        padding: 5px 20px !important;
+        font-size: 16px !important;
+    }
 }
 
 
@@ -2482,13 +2488,13 @@ header nav .links ul .btn-close{
     
 }
 
-@media (max-width: 500px){
+@media (max-width: 650px){
 
     
 
     .checkout .ordersummary h1{
 
-        font-size: 20px;
+        font-size: 18px;
     }
 
 
@@ -2505,30 +2511,46 @@ header nav .links ul .btn-close{
 
     .checkout .ordersummary .items .item-cart p{
 
-        font-size: 16px;
+        font-size: 15px;
     }
 
 
     .checkout .ordersummary .total p{
 
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .checkout .ordersummary .total span{
 
-        font-size: 22px;
+        font-size: 15px;
     }
 
 
     .checkout .ordersummary .button-div button{
 
-        font-size: 18px;
+        font-size: 15px;
+        padding: 7px 0;
     }
 
 
     .checkout form h2{
 
-        font-size: 20px;
+        font-size: 15px;
+    }
+
+    .checkout form .inputs label{
+
+        font-size: 12px;
+    }
+
+    .checkout form .inputs input{
+
+        padding: 6px 12px;
+    }
+
+    .checkout form .inputs input::placeholder{
+
+        font-size: 12px;
     }
     
 }
