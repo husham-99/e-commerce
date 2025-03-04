@@ -1373,7 +1373,7 @@ header nav .links ul .btn-close{
 }
 
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
 
     body{
 
@@ -1402,7 +1402,7 @@ header nav .links ul .btn-close{
         padding-top: 50px;
         position: fixed;
         top: 0;
-        left: -900px;
+        left: -1000px;
         bottom: 0;
         background-color: #fff;
         flex-direction: column;
@@ -1634,7 +1634,7 @@ header nav .links ul .btn-close{
 
     .news-letter .text h4{
 
-        font-size: 20px;
+        font-size: 18px;
     }
 
     
@@ -1648,6 +1648,27 @@ header nav .links ul .btn-close{
 
         width: 100%;
         
+    }
+
+    .cart .button-cart .btn-cart{
+
+        padding: 10px 0;
+        font-size: 13px;
+    }
+
+    .cart .bottom-cart .total p{
+
+        font-size: 16px;
+    }
+
+    .cart .top-cart h3{
+
+        font-size: 16px;
+    }
+
+    .cart .item-cart .content h4{
+
+        font-size: 12px;
     }
 }
 
@@ -1758,7 +1779,7 @@ header nav .links ul .btn-close{
 
     .news-letter .newsletter-form input{
 
-        padding: 16px 130px 16px 20px;
+        padding: 12px 130px 12px 20px;
     }
 
 
