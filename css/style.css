@@ -1982,11 +1982,14 @@ header nav .links ul .btn-close{
 
         flex-direction: column;
         gap: 40px;
+        
+        
     }
 
     .item-detail .container .img-item{
 
-        width: 50%
+        width: 50%;
+        text-align: center !important;
     }
 
     .item-detail .container .details-item{
@@ -1994,42 +1997,89 @@ header nav .links ul .btn-close{
         width: 100%
     }
 
+    
+
 }
 
 
 @media (max-width: 800px){
+    .item-detail{
 
+        padding: 20px 0;
+    }
     .item-detail .container .img-item{
 
-        width: 80%
+        width: 80%;
+        
     }
+
+    .item-detail .img-item .big-img img{
+
+        width: 70%;
+        
+        
+    }
+
+    
 
 
     .item-detail .details-item h1{
 
-        font-size: 20px;
+        font-size: 16px;
     }
+
+    .item-detail .stars i{
+
+        font-size: 12px;
+    }
+
+    .item-detail .details-item .price p span{
+
+        font-size: 16px;
+    }
+
+    .item-detail .details-item .price .old-price{
+
+        font-size: 15px;
+        
+    }
+
+    .item-detail .details-item h5{
+
+        font-size: 14px;
+    }
+
+    
 
     .item-detail .details-item .text-p{
 
-        font-size: 14px;
+        font-size: 12px;
         text-align: justify;
     }
 
     .item-detail .details-item h4{
 
-        font-size: 18px ;
+        font-size: 16px ;
     }
 
     .item-detail .details-item button{
 
-        padding: 7px 15px;
-        font-size: 16px;
+        padding: 5px 13px;
+        font-size: 12px;
     }
 
     .item-detail .details-item button i{
 
-        font-size: 20px;
+        font-size: 16px;
+    }
+
+
+    .item-detail .details-item .icons i{
+
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
     }
 
 
