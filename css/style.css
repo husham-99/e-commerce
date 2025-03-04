@@ -677,12 +677,14 @@ header nav .links .login_signup a{
 
     position: relative;
     cursor: pointer;
+    
 }
 
 .product .img-product img{
 
     width: 100%;
     transition: all 0.3s ease-in-out;
+    
 }
 
 .product .img-product .img-hover{
@@ -1359,7 +1361,7 @@ header nav .links ul .btn-close{
 
     .product .stars{
 
-        margin: 10px 0; 
+        margin: 5px 0; 
     }
 
     
@@ -1730,7 +1732,8 @@ header nav .links ul .btn-close{
 
     .product .product-name a{
 
-        font-size: 13px;
+        font-size: 11px;
+        
     }
 
     .product{
